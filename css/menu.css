@@ -1,0 +1,63 @@
+body {                          
+    width: 100%;
+    height: 100%;  
+    margin: 0 auto; 
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cabeçalho {
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to bottom, rgba(0, 0, 255, 0) 0%, rgba(0, 0, 255, 0) 50%,#141b38 51%, #141b38 100%);
+    border-left: cover;
+}
+
+.logotipo{
+    width: 150px;
+    height: 150px;
+    float: left;
+    object-fit: cover;
+}
+
+.header a {
+    float: left;  
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 30px;
+    text-decoration: double;
+    color: rgb(156, 39, 176);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mediasocial ul li  {
+    margin-top: 50px;
+    float: right;   
+    display: inline-block;
+    margin-right: 10px;
+    list-style: none;
+    
+}
+
+.planofundo {
+    float: inline-start; 
+}
+
+.fundo {
+    width: 100%;
+    height: 60%;
+    object-fit:cover; 
+}
+
+.footer p {
+    text-align: center;
+}
+/*
+.seletor {
+    position: ;
+    width: 50%;
+    height: 50%;
+    object-fit:cover; 
+    float:left;
+} */
