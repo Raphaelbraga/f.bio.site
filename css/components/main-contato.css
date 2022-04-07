@@ -1,0 +1,36 @@
+.main-contato{
+    padding-top: 1em;
+    text-align: center;
+    height: 30em;
+    width: 100%;
+    font-family:"Fira Code";
+    display: block;
+    background-color: #f2f8fb;
+}
+
+.main-contato form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.main-contato form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+
+.main-contato form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+.main-contato input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}

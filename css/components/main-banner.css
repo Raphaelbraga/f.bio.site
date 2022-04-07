@@ -1,0 +1,20 @@
+.main-banner {
+    padding-top: 1em;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    text-align: center;
+    height: 30em;
+    width: 100%;
+}
+
+.main-banner.-sobre{
+    display: inline-block;
+    background-image: url(../../assets/imagem/telaInicial.jpg);
+}
+
+.main-banner.-produtos{
+    display: block;
+    background-image: url(../../assets/imagem/fundo.exagono.png);
+}
+
+

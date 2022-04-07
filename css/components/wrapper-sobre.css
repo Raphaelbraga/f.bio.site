@@ -1,0 +1,10 @@
+.wrapper-sobre{
+    display: flex;
+    align-items: flex-end;
+}
+
+.wrapper-sobre img {
+    width: 1.5em;
+    height: 1.5em;
+}
+

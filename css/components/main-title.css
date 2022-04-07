@@ -1,0 +1,14 @@
+.main-title {    
+    font-family: "Fira Code";
+    font-size: 1.5rem;
+    color: #fff;    
+    text-shadow: 1px 1px 0px rgb(190, 91, 186);
+    text-decoration: none;
+    margin-right: 1em;
+}
+.main-title.-second {    
+    color: #141b38;
+    font-size: 2rem;
+    margin-right: 0;
+}
+

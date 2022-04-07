@@ -1,59 +1,75 @@
-<html>
-  <head>
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Asap:wght@600&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet"> 
-      <link rel="stylesheet" type="text/css" href="./CSS/normalize.css">
-      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-      <link rel="stylesheet" type="text/css" href="./css/menu.css">
-      <title>F.bio soluções biológicas</title>
-  </head>
-    <body background="./imagem/fundo.exagono.svg" > 
-      <div class = "cabeçalho">                <!-- determina primeira divisão para alocar logotipo e menu-->
-              <div class = "logo">
-                <img src="./imagem/logofbio.png" alt="" class= "logotipo" >   
-              </div>
-            <div class ="header">                           <!--agrupa o menu e ícones do socialmedia -->
-                    <div class="menu">
-                        <div><a href="#QUEM SOMOS">QUEM SOMOS</a></div> 
-                        <div><a href="#FALE CONOSCO">FALE CONOSCO</a></div>
-                    </div> 
-                       <div class= "mediasocial">     <!--classe para alocar-editar  imagens socialmedia-->
-                            <ul>
-                                <li>
-                                    <a href=""> 
-                                      <img src="./imagem/Whats.png"  width="45px" height="45px" alt=""> 
-                                    </a>
-                                </li>
-                                <li>
-                                  <a href=""> 
-                                      <img src="./imagem/Face.png" width="47px" height="47px"  alt=""> 
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href=""> 
-                                      <img src="./imagem/Link.png" width="45px" height="45px" alt="">  
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href=""> 
-                                    <img src="./imagem/Inst.png" width="45px" height="45px" alt=""> 
-                                  </a>
-                                </li>
-                            </ul>
-                       </div>         
-           </div>       
-      </div>    
-          <div class = "planofundo">
-            <img src="./imagem/tela inicial.jpg" alt="" class="fundo" >
-         <!-- <img src="./imagem/exagonal.png" alt="" class = "seletor"> -->
-          </div> 
-                <section>
-                  <p>NEWS LETTER</p>
-                </section>
-    </body>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F.bio Soluções Biológicas</title>
+
+    <link rel="stylesheet" href="./css/normelise.css">
+    <link rel="stylesheet" href="./css/main-contato">
+    <!-- <link rel="stylesheet" href="./css/components/main-container.css"> -->
+    <link rel="stylesheet" href="./css/components/main-header.css">
+    <link rel="stylesheet" href="./css/components/wrapper-sobre.css">
+    <link rel="stylesheet" href="./css/components/main-title.css">
+    <link rel="stylesheet" href="./css/components/main-banner.css">
+    <link rel="stylesheet" href="./css/components/main-produtos.css">
+    <link rel="stylesheet" href="./css/components/cardSobre-main.css">
+    <link rel="stylesheet" href="./css/components/socialMedia.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <img src="assets/imagem/FbioLogo.png" alt="">
+        <nav class="wrapper-sobre">
+            <a class="main-title" href="#Sobre">Sobre</a>
+            <a class="main-title" href="#Produtos">Produtos</a>
+            <a class="main-title" href="#Fale Conosco">Contato</a>
+            <a class="main-title" href=""><img src="assets/imagem/img.linkedin.png" alt=""></a>
+            <a class="main-title" href=""><img src="assets/imagem/img.insta.png" alt=""></a>
+        </nav>
+
+    </header>
+    <session class="main-banner -sobre" id="Sobre">
+        <h1 class="main-title -second">Quem Somos</h1>
+        <div class="cardSobre-main">
+            <figure>
+                <h2 class="main-title -second">missão </h2>
+                <img src="assets/imagem/sobre-banner.jpg" alt="">
+            </figure>
+            <figure>
+                <h2 class="main-title -second">visão </h2>
+                <img src="assets/imagem/sobre-banner.jpg" alt="">
+            </figure>
+            <figure>
+                <h2 class="main-title -second">valores</h2>
+                <img src="assets/imagem/sobre-banner.jpg" alt="">
+            </figure>
+        </div>
+    </session>
+    <session class="main-banner -produtos" id="Produtos">
+        <h1 class="main-title -second">Produtos</h1>
+        
+    </session>
+    <session class="main-contato">
+        <h1 class="main-title -second">Contato</h1>
+        <aside>
+            <h2><span>Inscreva-se agora</span></h2>
+            <h2>na Newslatter</h2>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </p>
+            <form>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="E-mail">
+                <input type="submit" value="Enviar >">
+            </form>
+        </aside>
+    </session>
     <footer>
-      <a href="#topo">VOLTAR</a>
-      <p> Todos os direitos reservados - F.bio soluções biológicas </p>
+        <span>&copy; Copyright 2021 | Fbio Soluções Biológicas</span>
     </footer>
+</body>
 
 </html>

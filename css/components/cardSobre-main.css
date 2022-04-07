@@ -1,0 +1,13 @@
+
+.cardSobre-main {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 1em 1em;
+}
+
+.cardSobre-main img{
+    margin-top: .5em;
+    width: 180px;
+    height: 180px;    
+}
+

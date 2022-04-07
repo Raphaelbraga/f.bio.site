@@ -1,0 +1,10 @@
+.main-produtos{
+    display: block;
+    text-align: center;
+    background-image: url(../../assets/imagem/telaInicial.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25em;
+
+}
